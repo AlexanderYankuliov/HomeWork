@@ -1,97 +1,10 @@
 //  ViewController.swift
 //  HomeWork
-
-//  Created by Alexander Yankuliov on 10.05.22.
-
-/*
- Это моя первая попытка сделать ДЗ №1, удачно вывелась в консоль первая часть задания,
- даже получилось убрать лишние знаки после точки, хоть этого и требовалось, но далее
- возникли проблемы со второй частью задания - значения floor не захотели дружить с
- условиями для выявления четных и нечетных чисел.
- Хотелось бы узнать в чем тут ошибка.
- */
-
-//import UIKit
 //
-//class ViewController: UIViewController {
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//
-//
-//        let numberA = 2.5
-//        let integerA = floor(numberA)
-//        let decimalA = numberA.truncatingRemainder(dividingBy: 1)
-//
-//        let numberB = 9.7
-//        let integerB = floor(numberB)
-//        let decimalB = numberB.truncatingRemainder(dividingBy: 1)
-//
-//        let numberC = 6.9
-//        let integerC = floor(numberC)
-//        let decimalC = numberC.truncatingRemainder(dividingBy: 1)
-//
-//        let numberD = 8.2
-//        let integerD = floor(numberD)
-//        let decimalD = numberD.truncatingRemainder(dividingBy: 1)
-//
-//        let sumIntABCD = integerA + integerB + integerC + integerD
-//        let sumDecABCD = decimalA + decimalB + decimalC + decimalD
-//
-//        print(sumIntABCD)
-//        print(sumDecABCD)
-//
-//        print(String(format: "%.0f", sumIntABCD))
-//        print(String(format: "%.1f", sumDecABCD))
-//
-//        if integerA % 2 == 0 {
-//            print("\(integerA) is even number")
-//        } else {
-//            print("\(integerA) is odd number")
-//
-//        }
-//
-//        if integerB % 2 == 0 {
-//            print("\(integerB) is even number")
-//        } else {
-//            print("\(integerB) is odd number")
-//
-//        }
-//
-//        if integerC % 2 == 0 {
-//            print("\(integerC) is even number")
-//        } else {
-//            print("\(integerC) is odd number")
-//
-//        }
-//
-//        if integerD % 2 == 0 {
-//            print("\(integerD) is even number")
-//        } else {
-//            print("\(integerD) is odd number")
-//
-//        }
-//
-//
-//    }
-//
-//}
-
-
-
-//  ViewController.swift
-//  HomeWork
-
-//  Created by Alexander Yankuliov on 10.05.22.
+//  Created by Alexander Yankuliov on 15.05.22.
 
 /*
- Это вторая попытка.
- Решил изменить способ выведения целой части числа и это помогло! УРА!
- Но после этого перестало работать сокращение знаков после запятой для числа 25.0 (показывало 0),
- хотя 2.3 по прежнему выводило правильно, понимаю что это не нужно, но интересно почему так
  
- Комментарии в коде я делал для себя, чтобы не сойти с ума.
  */
 
 import UIKit
@@ -101,68 +14,151 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Первое задание
+        // Перегрузка функции сложения
+        firstTask.addition(1, 3)
+        firstTask.addition(1.2, 3.4)
         
+        // Прегрузка функции вычитания
+        firstTask.subtraction(1, 3)
+        firstTask.subtraction(1.2, 3.4)
         
-        let numberA = 2.5
-        let integerA: Int = Int(trunc(numberA))
-        //Целая часть числа
-        let decimalA = numberA.truncatingRemainder(dividingBy: 1)
-        //Дробная часть числа
+        // Перегрузка функции умножения
+        firstTask.multiplication(1, 3)
+        firstTask.multiplication(1.2, 3.4)
         
-        let numberB = 9.7
-        let integerB: Int = Int(trunc(numberB))
-        let decimalB = numberB.truncatingRemainder(dividingBy: 1)
+        // Прегрузка функции деления
+        firstTask.division(1, 3)
+        firstTask.division(1.2, 3.4)
         
-        let numberC = 6.9
-        let integerC: Int = Int(trunc(numberC))
-        let decimalC = numberC.truncatingRemainder(dividingBy: 1)
+        // Второе задание
+        // Вычисление суммы цифр четырехзначного числа
+        secondTask.sumOfNumbers(1234)
         
-        let numberD = 8.2
-        let integerD: Int = Int(trunc(numberD))
-        let decimalD = numberD.truncatingRemainder(dividingBy: 1)
+        // Третье задание
+        // Функция сравнения строк
+        thirdTask.equal("авб", "ввш")
         
-        let sumIntABCD = integerA + integerB + integerC + integerD
-        //Сумма целых частей числа
-        let sumDecABCD = decimalA + decimalB + decimalC + decimalD
-        //Сумма дробных частей числа
+        // Пятое задание
+        // Функция возведения во вторую степень числа
+        fifthTask.squared(23)
         
-        print(sumIntABCD)
-        //Вывод в консоль суммы целых чисел
-        print(sumDecABCD)
-        //Вывод в консоль суммы дробных чисел
-        
-        if integerA % 2 == 0 {
-            print("\(integerA) is even number")
-        } else {
-            print("\(integerA) is odd number")
-            
-        }
-        //Оператор проверки числа на четность (even) и нечетность (odd) с выводом в консоль
-        
-        if integerB % 2 == 0 {
-            print("\(integerB) is even number")
-        } else {
-            print("\(integerB) is odd number")
-            
-        }
-        
-        if integerC % 2 == 0 {
-            print("\(integerC) is even number")
-        } else {
-            print("\(integerC) is odd number")
-            
-        }
-        
-        if integerD % 2 == 0 {
-            print("\(integerD) is even number")
-        } else {
-            print("\(integerD) is odd number")
-            
-        }
-        
-        
+        // Шестое задание
+        // Функция вычисления факториала числа
+        sixthTask.factorial(9)
     }
     
 }
 
 
+// Первое задание
+
+class firstTask {
+    
+    static func addition(_ x: Int, _ y : Int) {
+        print(x + y)
+    }
+    static func addition(_ x: Double, _ y: Double) {
+        print(x + y)
+    }
+    static func subtraction(_ x: Int, _ y : Int) {
+        print(x - y)
+    }
+    static func subtraction(_ x: Double, _ y: Double) {
+        print(x - y)
+    }
+    static func multiplication(_ x: Int, _ y : Int) {
+        print(x * y)
+    }
+    static func multiplication(_ x: Double, _ y: Double) {
+        print(x * y)
+    }
+    static func division(_ x: Int, _ y : Int) {
+        print(x / y)
+    }
+    static func division(_ x: Double, _ y: Double) {
+        print(x / y)
+    }
+    
+    //    В консоль вывелось:
+    //
+    //    4
+    //    4.6
+    //    -2
+    //    -2.2
+    //    3
+    //    4.08
+    //    0
+    //    0.35294117647058826
+    
+}
+
+
+// Второе задание
+
+class secondTask {
+    
+    static func sumOfNumbers(_ number: Int) {
+        
+        var sum = 0
+        let str = String(number)
+        for n in str {
+            sum += Int(String(n)) ?? 0
+        }
+        print("Сумма цифр числа \(number) равняется: \(sum)")
+    }
+    
+    // В консоль вывелось: Сумма цифр числа 1234 равняется: 10
+    
+}
+
+
+// Третье задание
+
+class thirdTask {
+    
+    static func equal(_ x: String,_ y: String) {
+        if x > y {
+            print(x + " > " + y)
+        } else if y > x {
+            print(y + " > " + x)
+        } else {
+            print(x + " = " + y)
+        }
+    }
+    
+    // В консоль вывелось: ввш > авб
+    
+}
+
+
+// Пятое задание
+
+class fifthTask {
+    
+    static func squared(_ x: Int, y: Double = 2) {
+        let intPow = Int(pow(Double(x), y))
+        let intY = Int(y)
+        print("\(x) ^ \(intY) = \(intPow)")
+    }
+    
+    // В консоль вывелось: 23 ^ 2 = 529
+    
+}
+
+
+// Шестое задание
+
+class sixthTask {
+    
+    static func factorial(_ n: Int) {
+        var factorial = 1
+        for number in 1...n {
+            factorial = factorial * number
+        }
+        print("Факториал числа \(n) равняется: \(factorial)")
+    }
+    
+    // В консоль вывелось: Факториал числа 9 равняется: 362880
+    
+}
