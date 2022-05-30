@@ -8,13 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9172E283FC4230014D0B9 /* ViewController.swift */; };
-		F3BF41072844C49800B7F7B5 /* HomeWork 1 in Resources */ = {isa = PBXBuildFile; fileRef = F3BF41062844C49800B7F7B5 /* HomeWork 1 */; };
-		F3BF41092844C4A600B7F7B5 /* HomeWork 2 in Resources */ = {isa = PBXBuildFile; fileRef = F3BF41082844C4A600B7F7B5 /* HomeWork 2 */; };
-		F3BF410B2844C4B500B7F7B5 /* HomeWork 3 in Resources */ = {isa = PBXBuildFile; fileRef = F3BF410A2844C4B500B7F7B5 /* HomeWork 3 */; };
-		F3BF410D2844C4C800B7F7B5 /* HomeWork 4 not finished in Resources */ = {isa = PBXBuildFile; fileRef = F3BF410C2844C4C800B7F7B5 /* HomeWork 4 not finished */; };
-		F3BF410F2844C4D900B7F7B5 /* HomeWork 5 CatGame in Resources */ = {isa = PBXBuildFile; fileRef = F3BF410E2844C4D900B7F7B5 /* HomeWork 5 CatGame */; };
-		F3BF41112844C4E700B7F7B5 /* HomeWork 5 Squares in Resources */ = {isa = PBXBuildFile; fileRef = F3BF41102844C4E700B7F7B5 /* HomeWork 5 Squares */; };
-		F3BF41132844C4F300B7F7B5 /* HomeWork 5 Control buttons in Resources */ = {isa = PBXBuildFile; fileRef = F3BF41122844C4F300B7F7B5 /* HomeWork 5 Control buttons */; };
 		F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DD282ADA200066F036 /* AppDelegate.swift */; };
 		F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DF282ADA200066F036 /* SceneDelegate.swift */; };
 		F3E367E5282ADA200066F036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E3282ADA200066F036 /* Main.storyboard */; };
@@ -22,15 +15,118 @@
 		F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F39918252844C60F00391CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39918212844C60F00391CE5 /* HomeWork 1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F364A301282D5B2300893F8E;
+			remoteInfo = HomeWork1;
+		};
+		F39918472844C63000391CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39918392844C63000391CE5 /* HomeWork 2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3ACE11A283153F60079FB12;
+			remoteInfo = HomeWork2;
+		};
+		F39918582844C63500391CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39918542844C63500391CE5 /* HomeWork 3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3C3B38E2834FF2F0074F759;
+			remoteInfo = HomeWork3;
+		};
+		F399186B2844C63900391CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F399185B2844C63900391CE5 /* HomeWork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3E367DA282ADA200066F036;
+			remoteInfo = HomeWork;
+		};
+		F399187C2844C63E00391CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39918782844C63E00391CE5 /* HomeWork 5 CatGame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F32DDD1928414BEF00E1E423;
+			remoteInfo = "HomeWork 5 CatGame";
+		};
+		F399188D2844C64200391CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39918892844C64200391CE5 /* HomeWork 5 Squares.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F35AF473284371970009C880;
+			remoteInfo = "HomeWork 5 Squares";
+		};
+		F399189E2844C64600391CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F399189A2844C64600391CE5 /* HomeWork 5 Control buttons.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F37F227A2843DFA800A16279;
+			remoteInfo = "HomeWork 5 Control buttons";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F39918182844C60F00391CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39918192844C60F00391CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F399181B2844C60F00391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F399181D2844C60F00391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F399181E2844C60F00391CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F399181F2844C60F00391CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39918202844C60F00391CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F39918212844C60F00391CE5 /* HomeWork 1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "HomeWork 1.xcodeproj"; sourceTree = "<group>"; };
+		F39918392844C63000391CE5 /* HomeWork 2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "HomeWork 2.xcodeproj"; sourceTree = "<group>"; };
+		F399183D2844C63000391CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F399183E2844C63000391CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39918402844C63000391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39918422844C63000391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39918432844C63000391CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39918442844C63000391CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39918452844C63000391CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F399184B2844C63500391CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F399184C2844C63500391CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F399184E2844C63500391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39918502844C63500391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39918512844C63500391CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39918522844C63500391CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39918532844C63500391CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F39918542844C63500391CE5 /* HomeWork 3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "HomeWork 3.xcodeproj"; sourceTree = "<group>"; };
+		F399185B2844C63900391CE5 /* HomeWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HomeWork.xcodeproj; sourceTree = "<group>"; };
+		F399185F2844C63900391CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39918602844C63900391CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39918612844C63900391CE5 /* Pub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pub.swift; sourceTree = "<group>"; };
+		F39918632844C63900391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39918652844C63900391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39918662844C63900391CE5 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		F39918672844C63900391CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39918682844C63900391CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39918692844C63900391CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F399186F2844C63E00391CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39918702844C63E00391CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39918722844C63E00391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39918742844C63E00391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39918752844C63E00391CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39918762844C63E00391CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39918772844C63E00391CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F39918782844C63E00391CE5 /* HomeWork 5 CatGame.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "HomeWork 5 CatGame.xcodeproj"; sourceTree = "<group>"; };
+		F39918802844C64200391CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39918812844C64200391CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39918832844C64200391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39918852844C64200391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39918862844C64200391CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39918872844C64200391CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39918882844C64200391CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F39918892844C64200391CE5 /* HomeWork 5 Squares.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "HomeWork 5 Squares.xcodeproj"; sourceTree = "<group>"; };
+		F39918912844C64600391CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39918922844C64600391CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39918942844C64600391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39918962844C64600391CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39918972844C64600391CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39918982844C64600391CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39918992844C64600391CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F399189A2844C64600391CE5 /* HomeWork 5 Control buttons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "HomeWork 5 Control buttons.xcodeproj"; sourceTree = "<group>"; };
 		F3A9172E283FC4230014D0B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3BF41062844C49800B7F7B5 /* HomeWork 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 1"; path = "../../../HomeWorkDone/HomeWork 1"; sourceTree = "<group>"; };
-		F3BF41082844C4A600B7F7B5 /* HomeWork 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 2"; path = "../../../HomeWorkDone/HomeWork 2"; sourceTree = "<group>"; };
-		F3BF410A2844C4B500B7F7B5 /* HomeWork 3 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 3"; path = "../../../HomeWorkDone/HomeWork 3"; sourceTree = "<group>"; };
-		F3BF410C2844C4C800B7F7B5 /* HomeWork 4 not finished */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 4 not finished"; path = "../../../HomeWorkDone/HomeWork 4 not finished"; sourceTree = "<group>"; };
-		F3BF410E2844C4D900B7F7B5 /* HomeWork 5 CatGame */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 5 CatGame"; path = "../../../HomeWorkDone/HomeWork 5 CatGame"; sourceTree = "<group>"; };
-		F3BF41102844C4E700B7F7B5 /* HomeWork 5 Squares */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 5 Squares"; path = "../../../HomeWorkDone/HomeWork 5 Squares"; sourceTree = "<group>"; };
-		F3BF41122844C4F300B7F7B5 /* HomeWork 5 Control buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 5 Control buttons"; path = "../../../HomeWorkDone/HomeWork 5 Control buttons"; sourceTree = "<group>"; };
 		F3E367DA282ADA200066F036 /* HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E367DD282ADA200066F036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3E367DF282ADA200066F036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,16 +147,228 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F39918162844C60F00391CE5 /* HomeWork 1 */ = {
+			isa = PBXGroup;
+			children = (
+				F39918172844C60F00391CE5 /* HomeWork 1 */,
+				F39918212844C60F00391CE5 /* HomeWork 1.xcodeproj */,
+			);
+			path = "HomeWork 1";
+			sourceTree = "<group>";
+		};
+		F39918172844C60F00391CE5 /* HomeWork 1 */ = {
+			isa = PBXGroup;
+			children = (
+				F39918182844C60F00391CE5 /* ViewController.swift */,
+				F39918192844C60F00391CE5 /* Assets.xcassets */,
+				F399181A2844C60F00391CE5 /* LaunchScreen.storyboard */,
+				F399181C2844C60F00391CE5 /* Main.storyboard */,
+				F399181E2844C60F00391CE5 /* AppDelegate.swift */,
+				F399181F2844C60F00391CE5 /* Info.plist */,
+				F39918202844C60F00391CE5 /* SceneDelegate.swift */,
+			);
+			path = "HomeWork 1";
+			sourceTree = "<group>";
+		};
+		F39918222844C60F00391CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39918262844C60F00391CE5 /* HomeWork1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39918382844C63000391CE5 /* HomeWork 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F39918392844C63000391CE5 /* HomeWork 2.xcodeproj */,
+				F399183C2844C63000391CE5 /* HomeWork 2 */,
+			);
+			path = "HomeWork 2";
+			sourceTree = "<group>";
+		};
+		F399183A2844C63000391CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39918482844C63000391CE5 /* HomeWork2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F399183C2844C63000391CE5 /* HomeWork 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F399183D2844C63000391CE5 /* ViewController.swift */,
+				F399183E2844C63000391CE5 /* Assets.xcassets */,
+				F399183F2844C63000391CE5 /* LaunchScreen.storyboard */,
+				F39918412844C63000391CE5 /* Main.storyboard */,
+				F39918432844C63000391CE5 /* AppDelegate.swift */,
+				F39918442844C63000391CE5 /* Info.plist */,
+				F39918452844C63000391CE5 /* SceneDelegate.swift */,
+			);
+			path = "HomeWork 2";
+			sourceTree = "<group>";
+		};
+		F39918492844C63500391CE5 /* HomeWork 3 */ = {
+			isa = PBXGroup;
+			children = (
+				F399184A2844C63500391CE5 /* HomeWork 3 */,
+				F39918542844C63500391CE5 /* HomeWork 3.xcodeproj */,
+			);
+			path = "HomeWork 3";
+			sourceTree = "<group>";
+		};
+		F399184A2844C63500391CE5 /* HomeWork 3 */ = {
+			isa = PBXGroup;
+			children = (
+				F399184B2844C63500391CE5 /* ViewController.swift */,
+				F399184C2844C63500391CE5 /* Assets.xcassets */,
+				F399184D2844C63500391CE5 /* LaunchScreen.storyboard */,
+				F399184F2844C63500391CE5 /* Main.storyboard */,
+				F39918512844C63500391CE5 /* AppDelegate.swift */,
+				F39918522844C63500391CE5 /* Info.plist */,
+				F39918532844C63500391CE5 /* SceneDelegate.swift */,
+			);
+			path = "HomeWork 3";
+			sourceTree = "<group>";
+		};
+		F39918552844C63500391CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39918592844C63500391CE5 /* HomeWork3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F399185A2844C63900391CE5 /* HomeWork 4 not finished */ = {
+			isa = PBXGroup;
+			children = (
+				F399185B2844C63900391CE5 /* HomeWork.xcodeproj */,
+				F399185E2844C63900391CE5 /* HomeWork 4 */,
+			);
+			path = "HomeWork 4 not finished";
+			sourceTree = "<group>";
+		};
+		F399185C2844C63900391CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F399186C2844C63900391CE5 /* HomeWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F399185E2844C63900391CE5 /* HomeWork 4 */ = {
+			isa = PBXGroup;
+			children = (
+				F399185F2844C63900391CE5 /* ViewController.swift */,
+				F39918602844C63900391CE5 /* Assets.xcassets */,
+				F39918612844C63900391CE5 /* Pub.swift */,
+				F39918622844C63900391CE5 /* LaunchScreen.storyboard */,
+				F39918642844C63900391CE5 /* Main.storyboard */,
+				F39918662844C63900391CE5 /* Beer.swift */,
+				F39918672844C63900391CE5 /* AppDelegate.swift */,
+				F39918682844C63900391CE5 /* Info.plist */,
+				F39918692844C63900391CE5 /* SceneDelegate.swift */,
+			);
+			path = "HomeWork 4";
+			sourceTree = "<group>";
+		};
+		F399186D2844C63E00391CE5 /* HomeWork 5 CatGame */ = {
+			isa = PBXGroup;
+			children = (
+				F399186E2844C63E00391CE5 /* HomeWork 5 CatGame */,
+				F39918782844C63E00391CE5 /* HomeWork 5 CatGame.xcodeproj */,
+			);
+			path = "HomeWork 5 CatGame";
+			sourceTree = "<group>";
+		};
+		F399186E2844C63E00391CE5 /* HomeWork 5 CatGame */ = {
+			isa = PBXGroup;
+			children = (
+				F399186F2844C63E00391CE5 /* ViewController.swift */,
+				F39918702844C63E00391CE5 /* Assets.xcassets */,
+				F39918712844C63E00391CE5 /* LaunchScreen.storyboard */,
+				F39918732844C63E00391CE5 /* Main.storyboard */,
+				F39918752844C63E00391CE5 /* AppDelegate.swift */,
+				F39918762844C63E00391CE5 /* Info.plist */,
+				F39918772844C63E00391CE5 /* SceneDelegate.swift */,
+			);
+			path = "HomeWork 5 CatGame";
+			sourceTree = "<group>";
+		};
+		F39918792844C63E00391CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F399187D2844C63E00391CE5 /* HomeWork 5 CatGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F399187E2844C64200391CE5 /* HomeWork 5 Squares */ = {
+			isa = PBXGroup;
+			children = (
+				F399187F2844C64200391CE5 /* HomeWork 5 Squares */,
+				F39918892844C64200391CE5 /* HomeWork 5 Squares.xcodeproj */,
+			);
+			path = "HomeWork 5 Squares";
+			sourceTree = "<group>";
+		};
+		F399187F2844C64200391CE5 /* HomeWork 5 Squares */ = {
+			isa = PBXGroup;
+			children = (
+				F39918802844C64200391CE5 /* ViewController.swift */,
+				F39918812844C64200391CE5 /* Assets.xcassets */,
+				F39918822844C64200391CE5 /* LaunchScreen.storyboard */,
+				F39918842844C64200391CE5 /* Main.storyboard */,
+				F39918862844C64200391CE5 /* AppDelegate.swift */,
+				F39918872844C64200391CE5 /* Info.plist */,
+				F39918882844C64200391CE5 /* SceneDelegate.swift */,
+			);
+			path = "HomeWork 5 Squares";
+			sourceTree = "<group>";
+		};
+		F399188A2844C64200391CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F399188E2844C64200391CE5 /* HomeWork 5 Squares.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F399188F2844C64600391CE5 /* HomeWork 5 Control buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F39918902844C64600391CE5 /* HomeWork 5 Control buttons */,
+				F399189A2844C64600391CE5 /* HomeWork 5 Control buttons.xcodeproj */,
+			);
+			path = "HomeWork 5 Control buttons";
+			sourceTree = "<group>";
+		};
+		F39918902844C64600391CE5 /* HomeWork 5 Control buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F39918912844C64600391CE5 /* ViewController.swift */,
+				F39918922844C64600391CE5 /* Assets.xcassets */,
+				F39918932844C64600391CE5 /* LaunchScreen.storyboard */,
+				F39918952844C64600391CE5 /* Main.storyboard */,
+				F39918972844C64600391CE5 /* AppDelegate.swift */,
+				F39918982844C64600391CE5 /* Info.plist */,
+				F39918992844C64600391CE5 /* SceneDelegate.swift */,
+			);
+			path = "HomeWork 5 Control buttons";
+			sourceTree = "<group>";
+		};
+		F399189B2844C64600391CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F399189F2844C64600391CE5 /* HomeWork 5 Control buttons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F3E367D1282ADA200066F036 = {
 			isa = PBXGroup;
 			children = (
-				F3BF41122844C4F300B7F7B5 /* HomeWork 5 Control buttons */,
-				F3BF41102844C4E700B7F7B5 /* HomeWork 5 Squares */,
-				F3BF410E2844C4D900B7F7B5 /* HomeWork 5 CatGame */,
-				F3BF410C2844C4C800B7F7B5 /* HomeWork 4 not finished */,
-				F3BF410A2844C4B500B7F7B5 /* HomeWork 3 */,
-				F3BF41082844C4A600B7F7B5 /* HomeWork 2 */,
-				F3BF41062844C49800B7F7B5 /* HomeWork 1 */,
 				F3E367DC282ADA200066F036 /* HomeWork */,
 				F3E367DB282ADA200066F036 /* Products */,
 			);
@@ -84,6 +392,13 @@
 				F3E367EB282ADA200066F036 /* Info.plist */,
 				F3E367E3282ADA200066F036 /* Main.storyboard */,
 				F3A9172E283FC4230014D0B9 /* ViewController.swift */,
+				F399188F2844C64600391CE5 /* HomeWork 5 Control buttons */,
+				F399187E2844C64200391CE5 /* HomeWork 5 Squares */,
+				F399186D2844C63E00391CE5 /* HomeWork 5 CatGame */,
+				F399185A2844C63900391CE5 /* HomeWork 4 not finished */,
+				F39918492844C63500391CE5 /* HomeWork 3 */,
+				F39918382844C63000391CE5 /* HomeWork 2 */,
+				F39918162844C60F00391CE5 /* HomeWork 1 */,
 			);
 			path = HomeWork;
 			sourceTree = "<group>";
@@ -134,6 +449,36 @@
 			mainGroup = F3E367D1282ADA200066F036;
 			productRefGroup = F3E367DB282ADA200066F036 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F39918222844C60F00391CE5 /* Products */;
+					ProjectRef = F39918212844C60F00391CE5 /* HomeWork 1.xcodeproj */;
+				},
+				{
+					ProductGroup = F399183A2844C63000391CE5 /* Products */;
+					ProjectRef = F39918392844C63000391CE5 /* HomeWork 2.xcodeproj */;
+				},
+				{
+					ProductGroup = F39918552844C63500391CE5 /* Products */;
+					ProjectRef = F39918542844C63500391CE5 /* HomeWork 3.xcodeproj */;
+				},
+				{
+					ProductGroup = F39918792844C63E00391CE5 /* Products */;
+					ProjectRef = F39918782844C63E00391CE5 /* HomeWork 5 CatGame.xcodeproj */;
+				},
+				{
+					ProductGroup = F399189B2844C64600391CE5 /* Products */;
+					ProjectRef = F399189A2844C64600391CE5 /* HomeWork 5 Control buttons.xcodeproj */;
+				},
+				{
+					ProductGroup = F399188A2844C64200391CE5 /* Products */;
+					ProjectRef = F39918892844C64200391CE5 /* HomeWork 5 Squares.xcodeproj */;
+				},
+				{
+					ProductGroup = F399185C2844C63900391CE5 /* Products */;
+					ProjectRef = F399185B2844C63900391CE5 /* HomeWork.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F3E367D9282ADA200066F036 /* HomeWork */,
@@ -141,21 +486,66 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F39918262844C60F00391CE5 /* HomeWork1.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HomeWork1.app;
+			remoteRef = F39918252844C60F00391CE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F39918482844C63000391CE5 /* HomeWork2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HomeWork2.app;
+			remoteRef = F39918472844C63000391CE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F39918592844C63500391CE5 /* HomeWork3.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HomeWork3.app;
+			remoteRef = F39918582844C63500391CE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F399186C2844C63900391CE5 /* HomeWork.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HomeWork.app;
+			remoteRef = F399186B2844C63900391CE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F399187D2844C63E00391CE5 /* HomeWork 5 CatGame.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "HomeWork 5 CatGame.app";
+			remoteRef = F399187C2844C63E00391CE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F399188E2844C64200391CE5 /* HomeWork 5 Squares.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "HomeWork 5 Squares.app";
+			remoteRef = F399188D2844C64200391CE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F399189F2844C64600391CE5 /* HomeWork 5 Control buttons.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "HomeWork 5 Control buttons.app";
+			remoteRef = F399189E2844C64600391CE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F3E367D8282ADA200066F036 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */,
-				F3BF410B2844C4B500B7F7B5 /* HomeWork 3 in Resources */,
-				F3BF410D2844C4C800B7F7B5 /* HomeWork 4 not finished in Resources */,
 				F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */,
-				F3BF41092844C4A600B7F7B5 /* HomeWork 2 in Resources */,
-				F3BF41112844C4E700B7F7B5 /* HomeWork 5 Squares in Resources */,
-				F3BF410F2844C4D900B7F7B5 /* HomeWork 5 CatGame in Resources */,
-				F3BF41132844C4F300B7F7B5 /* HomeWork 5 Control buttons in Resources */,
 				F3E367E5282ADA200066F036 /* Main.storyboard in Resources */,
-				F3BF41072844C49800B7F7B5 /* HomeWork 1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +565,118 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F399181A2844C60F00391CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F399181B2844C60F00391CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F399181C2844C60F00391CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F399181D2844C60F00391CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F399183F2844C63000391CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918402844C63000391CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918412844C63000391CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918422844C63000391CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F399184D2844C63500391CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F399184E2844C63500391CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F399184F2844C63500391CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918502844C63500391CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918622844C63900391CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918632844C63900391CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918642844C63900391CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918652844C63900391CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918712844C63E00391CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918722844C63E00391CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918732844C63E00391CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918742844C63E00391CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918822844C64200391CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918832844C64200391CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918842844C64200391CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918852844C64200391CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918932844C64600391CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918942844C64600391CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F39918952844C64600391CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39918962844C64600391CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		F3E367E3282ADA200066F036 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
