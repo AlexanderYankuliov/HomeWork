@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9172E283FC4230014D0B9 /* ViewController.swift */; };
-		F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DD282ADA200066F036 /* AppDelegate.swift */; };
-		F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DF282ADA200066F036 /* SceneDelegate.swift */; };
-		F3E367E5282ADA200066F036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E3282ADA200066F036 /* Main.storyboard */; };
-		F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E6282ADA200066F036 /* Assets.xcassets */; };
-		F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */; };
+		F37F227E2843DFA800A16279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F227D2843DFA800A16279 /* AppDelegate.swift */; };
+		F37F22802843DFA800A16279 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F227F2843DFA800A16279 /* SceneDelegate.swift */; };
+		F37F22822843DFA800A16279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F22812843DFA800A16279 /* ViewController.swift */; };
+		F37F22852843DFA800A16279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37F22832843DFA800A16279 /* Main.storyboard */; };
+		F37F22872843DFA900A16279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37F22862843DFA900A16279 /* Assets.xcassets */; };
+		F37F228A2843DFA900A16279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37F22882843DFA900A16279 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3A9172E283FC4230014D0B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3E367DA282ADA200066F036 /* HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E367DD282ADA200066F036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3E367DF282ADA200066F036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3E367E4282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3E367E6282ADA200066F036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3E367E9282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3E367EB282ADA200066F036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37F227A2843DFA800A16279 /* HomeWork 5 Control buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 5 Control buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37F227D2843DFA800A16279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F37F227F2843DFA800A16279 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F37F22812843DFA800A16279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F37F22842843DFA800A16279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F37F22862843DFA900A16279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F37F22892843DFA900A16279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F37F228B2843DFA900A16279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3E367D7282ADA200066F036 /* Frameworks */ = {
+		F37F22772843DFA800A16279 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3E367D1282ADA200066F036 = {
+		F37F22712843DFA800A16279 = {
 			isa = PBXGroup;
 			children = (
-				F3E367DC282ADA200066F036 /* HomeWork */,
-				F3E367DB282ADA200066F036 /* Products */,
+				F37F227C2843DFA800A16279 /* HomeWork 5 Control buttons */,
+				F37F227B2843DFA800A16279 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3E367DB282ADA200066F036 /* Products */ = {
+		F37F227B2843DFA800A16279 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3E367DA282ADA200066F036 /* HomeWork.app */,
+				F37F227A2843DFA800A16279 /* HomeWork 5 Control buttons.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3E367DC282ADA200066F036 /* HomeWork */ = {
+		F37F227C2843DFA800A16279 /* HomeWork 5 Control buttons */ = {
 			isa = PBXGroup;
 			children = (
-				F3E367DD282ADA200066F036 /* AppDelegate.swift */,
-				F3E367DF282ADA200066F036 /* SceneDelegate.swift */,
-				F3E367E6282ADA200066F036 /* Assets.xcassets */,
-				F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */,
-				F3E367EB282ADA200066F036 /* Info.plist */,
-				F3E367E3282ADA200066F036 /* Main.storyboard */,
-				F3A9172E283FC4230014D0B9 /* ViewController.swift */,
+				F37F227D2843DFA800A16279 /* AppDelegate.swift */,
+				F37F227F2843DFA800A16279 /* SceneDelegate.swift */,
+				F37F22812843DFA800A16279 /* ViewController.swift */,
+				F37F22832843DFA800A16279 /* Main.storyboard */,
+				F37F22862843DFA900A16279 /* Assets.xcassets */,
+				F37F22882843DFA900A16279 /* LaunchScreen.storyboard */,
+				F37F228B2843DFA900A16279 /* Info.plist */,
 			);
-			path = HomeWork;
+			path = "HomeWork 5 Control buttons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3E367D9282ADA200066F036 /* HomeWork */ = {
+		F37F22792843DFA800A16279 /* HomeWork 5 Control buttons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3E367EE282ADA200066F036 /* Build configuration list for PBXNativeTarget "HomeWork" */;
+			buildConfigurationList = F37F228E2843DFA900A16279 /* Build configuration list for PBXNativeTarget "HomeWork 5 Control buttons" */;
 			buildPhases = (
-				F3E367D6282ADA200066F036 /* Sources */,
-				F3E367D7282ADA200066F036 /* Frameworks */,
-				F3E367D8282ADA200066F036 /* Resources */,
+				F37F22762843DFA800A16279 /* Sources */,
+				F37F22772843DFA800A16279 /* Frameworks */,
+				F37F22782843DFA800A16279 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HomeWork;
-			productName = HomeWork;
-			productReference = F3E367DA282ADA200066F036 /* HomeWork.app */;
+			name = "HomeWork 5 Control buttons";
+			productName = "HomeWork 5 Control buttons";
+			productReference = F37F227A2843DFA800A16279 /* HomeWork 5 Control buttons.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3E367D2282ADA200066F036 /* Project object */ = {
+		F37F22722843DFA800A16279 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					F3E367D9282ADA200066F036 = {
+					F37F22792843DFA800A16279 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F3E367D5282ADA200066F036 /* Build configuration list for PBXProject "HomeWork" */;
+			buildConfigurationList = F37F22752843DFA800A16279 /* Build configuration list for PBXProject "HomeWork 5 Control buttons" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F3E367D1282ADA200066F036;
-			productRefGroup = F3E367DB282ADA200066F036 /* Products */;
+			mainGroup = F37F22712843DFA800A16279;
+			productRefGroup = F37F227B2843DFA800A16279 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3E367D9282ADA200066F036 /* HomeWork */,
+				F37F22792843DFA800A16279 /* HomeWork 5 Control buttons */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3E367D8282ADA200066F036 /* Resources */ = {
+		F37F22782843DFA800A16279 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */,
-				F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */,
-				F3E367E5282ADA200066F036 /* Main.storyboard in Resources */,
+				F37F228A2843DFA900A16279 /* LaunchScreen.storyboard in Resources */,
+				F37F22872843DFA900A16279 /* Assets.xcassets in Resources */,
+				F37F22852843DFA800A16279 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3E367D6282ADA200066F036 /* Sources */ = {
+		F37F22762843DFA800A16279 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */,
-				F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */,
-				F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */,
+				F37F22822843DFA800A16279 /* ViewController.swift in Sources */,
+				F37F227E2843DFA800A16279 /* AppDelegate.swift in Sources */,
+				F37F22802843DFA800A16279 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3E367E3282ADA200066F036 /* Main.storyboard */ = {
+		F37F22832843DFA800A16279 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3E367E4282ADA200066F036 /* Base */,
+				F37F22842843DFA800A16279 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */ = {
+		F37F22882843DFA900A16279 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3E367E9282ADA200066F036 /* Base */,
+				F37F22892843DFA900A16279 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3E367EC282ADA200066F036 /* Debug */ = {
+		F37F228C2843DFA900A16279 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		F3E367ED282ADA200066F036 /* Release */ = {
+		F37F228D2843DFA900A16279 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		F3E367EF282ADA200066F036 /* Debug */ = {
+		F37F228F2843DFA900A16279 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork/Info.plist;
+				INFOPLIST_FILE = "HomeWork 5 Control buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork-5-Control-buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		F3E367F0282ADA200066F036 /* Release */ = {
+		F37F22902843DFA900A16279 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork/Info.plist;
+				INFOPLIST_FILE = "HomeWork 5 Control buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork-5-Control-buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3E367D5282ADA200066F036 /* Build configuration list for PBXProject "HomeWork" */ = {
+		F37F22752843DFA800A16279 /* Build configuration list for PBXProject "HomeWork 5 Control buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E367EC282ADA200066F036 /* Debug */,
-				F3E367ED282ADA200066F036 /* Release */,
+				F37F228C2843DFA900A16279 /* Debug */,
+				F37F228D2843DFA900A16279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3E367EE282ADA200066F036 /* Build configuration list for PBXNativeTarget "HomeWork" */ = {
+		F37F228E2843DFA900A16279 /* Build configuration list for PBXNativeTarget "HomeWork 5 Control buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E367EF282ADA200066F036 /* Debug */,
-				F3E367F0282ADA200066F036 /* Release */,
+				F37F228F2843DFA900A16279 /* Debug */,
+				F37F22902843DFA900A16279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3E367D2282ADA200066F036 /* Project object */;
+	rootObject = F37F22722843DFA800A16279 /* Project object */;
 }

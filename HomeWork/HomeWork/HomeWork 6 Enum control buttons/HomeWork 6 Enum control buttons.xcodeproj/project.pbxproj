@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9172E283FC4230014D0B9 /* ViewController.swift */; };
-		F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DD282ADA200066F036 /* AppDelegate.swift */; };
-		F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DF282ADA200066F036 /* SceneDelegate.swift */; };
-		F3E367E5282ADA200066F036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E3282ADA200066F036 /* Main.storyboard */; };
-		F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E6282ADA200066F036 /* Assets.xcassets */; };
-		F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */; };
+		F3E6D6962847934F004D1F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6D6952847934F004D1F56 /* AppDelegate.swift */; };
+		F3E6D6982847934F004D1F56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6D6972847934F004D1F56 /* SceneDelegate.swift */; };
+		F3E6D69A2847934F004D1F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6D6992847934F004D1F56 /* ViewController.swift */; };
+		F3E6D69D2847934F004D1F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E6D69B2847934F004D1F56 /* Main.storyboard */; };
+		F3E6D69F28479350004D1F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E6D69E28479350004D1F56 /* Assets.xcassets */; };
+		F3E6D6A228479350004D1F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E6D6A028479350004D1F56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3A9172E283FC4230014D0B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3E367DA282ADA200066F036 /* HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E367DD282ADA200066F036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3E367DF282ADA200066F036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3E367E4282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3E367E6282ADA200066F036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3E367E9282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3E367EB282ADA200066F036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E6D6922847934F004D1F56 /* HomeWork 6 Enum control buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 6 Enum control buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E6D6952847934F004D1F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3E6D6972847934F004D1F56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3E6D6992847934F004D1F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3E6D69C2847934F004D1F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3E6D69E28479350004D1F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E6D6A128479350004D1F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3E6D6A328479350004D1F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3E367D7282ADA200066F036 /* Frameworks */ = {
+		F3E6D68F2847934F004D1F56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3E367D1282ADA200066F036 = {
+		F3E6D6892847934F004D1F56 = {
 			isa = PBXGroup;
 			children = (
-				F3E367DC282ADA200066F036 /* HomeWork */,
-				F3E367DB282ADA200066F036 /* Products */,
+				F3E6D6942847934F004D1F56 /* HomeWork 6 Enum control buttons */,
+				F3E6D6932847934F004D1F56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3E367DB282ADA200066F036 /* Products */ = {
+		F3E6D6932847934F004D1F56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3E367DA282ADA200066F036 /* HomeWork.app */,
+				F3E6D6922847934F004D1F56 /* HomeWork 6 Enum control buttons.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3E367DC282ADA200066F036 /* HomeWork */ = {
+		F3E6D6942847934F004D1F56 /* HomeWork 6 Enum control buttons */ = {
 			isa = PBXGroup;
 			children = (
-				F3E367DD282ADA200066F036 /* AppDelegate.swift */,
-				F3E367DF282ADA200066F036 /* SceneDelegate.swift */,
-				F3E367E6282ADA200066F036 /* Assets.xcassets */,
-				F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */,
-				F3E367EB282ADA200066F036 /* Info.plist */,
-				F3E367E3282ADA200066F036 /* Main.storyboard */,
-				F3A9172E283FC4230014D0B9 /* ViewController.swift */,
+				F3E6D6952847934F004D1F56 /* AppDelegate.swift */,
+				F3E6D6972847934F004D1F56 /* SceneDelegate.swift */,
+				F3E6D6992847934F004D1F56 /* ViewController.swift */,
+				F3E6D69B2847934F004D1F56 /* Main.storyboard */,
+				F3E6D69E28479350004D1F56 /* Assets.xcassets */,
+				F3E6D6A028479350004D1F56 /* LaunchScreen.storyboard */,
+				F3E6D6A328479350004D1F56 /* Info.plist */,
 			);
-			path = HomeWork;
+			path = "HomeWork 6 Enum control buttons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3E367D9282ADA200066F036 /* HomeWork */ = {
+		F3E6D6912847934F004D1F56 /* HomeWork 6 Enum control buttons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3E367EE282ADA200066F036 /* Build configuration list for PBXNativeTarget "HomeWork" */;
+			buildConfigurationList = F3E6D6A628479350004D1F56 /* Build configuration list for PBXNativeTarget "HomeWork 6 Enum control buttons" */;
 			buildPhases = (
-				F3E367D6282ADA200066F036 /* Sources */,
-				F3E367D7282ADA200066F036 /* Frameworks */,
-				F3E367D8282ADA200066F036 /* Resources */,
+				F3E6D68E2847934F004D1F56 /* Sources */,
+				F3E6D68F2847934F004D1F56 /* Frameworks */,
+				F3E6D6902847934F004D1F56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HomeWork;
-			productName = HomeWork;
-			productReference = F3E367DA282ADA200066F036 /* HomeWork.app */;
+			name = "HomeWork 6 Enum control buttons";
+			productName = "HomeWork 6 Enum control buttons";
+			productReference = F3E6D6922847934F004D1F56 /* HomeWork 6 Enum control buttons.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3E367D2282ADA200066F036 /* Project object */ = {
+		F3E6D68A2847934F004D1F56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					F3E367D9282ADA200066F036 = {
+					F3E6D6912847934F004D1F56 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F3E367D5282ADA200066F036 /* Build configuration list for PBXProject "HomeWork" */;
+			buildConfigurationList = F3E6D68D2847934F004D1F56 /* Build configuration list for PBXProject "HomeWork 6 Enum control buttons" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F3E367D1282ADA200066F036;
-			productRefGroup = F3E367DB282ADA200066F036 /* Products */;
+			mainGroup = F3E6D6892847934F004D1F56;
+			productRefGroup = F3E6D6932847934F004D1F56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3E367D9282ADA200066F036 /* HomeWork */,
+				F3E6D6912847934F004D1F56 /* HomeWork 6 Enum control buttons */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3E367D8282ADA200066F036 /* Resources */ = {
+		F3E6D6902847934F004D1F56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */,
-				F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */,
-				F3E367E5282ADA200066F036 /* Main.storyboard in Resources */,
+				F3E6D6A228479350004D1F56 /* LaunchScreen.storyboard in Resources */,
+				F3E6D69F28479350004D1F56 /* Assets.xcassets in Resources */,
+				F3E6D69D2847934F004D1F56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3E367D6282ADA200066F036 /* Sources */ = {
+		F3E6D68E2847934F004D1F56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */,
-				F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */,
-				F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */,
+				F3E6D69A2847934F004D1F56 /* ViewController.swift in Sources */,
+				F3E6D6962847934F004D1F56 /* AppDelegate.swift in Sources */,
+				F3E6D6982847934F004D1F56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3E367E3282ADA200066F036 /* Main.storyboard */ = {
+		F3E6D69B2847934F004D1F56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3E367E4282ADA200066F036 /* Base */,
+				F3E6D69C2847934F004D1F56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */ = {
+		F3E6D6A028479350004D1F56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3E367E9282ADA200066F036 /* Base */,
+				F3E6D6A128479350004D1F56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3E367EC282ADA200066F036 /* Debug */ = {
+		F3E6D6A428479350004D1F56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		F3E367ED282ADA200066F036 /* Release */ = {
+		F3E6D6A528479350004D1F56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		F3E367EF282ADA200066F036 /* Debug */ = {
+		F3E6D6A728479350004D1F56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork/Info.plist;
+				INFOPLIST_FILE = "HomeWork 6 Enum control buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork-6-Enum-control-buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		F3E367F0282ADA200066F036 /* Release */ = {
+		F3E6D6A828479350004D1F56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork/Info.plist;
+				INFOPLIST_FILE = "HomeWork 6 Enum control buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork-6-Enum-control-buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3E367D5282ADA200066F036 /* Build configuration list for PBXProject "HomeWork" */ = {
+		F3E6D68D2847934F004D1F56 /* Build configuration list for PBXProject "HomeWork 6 Enum control buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E367EC282ADA200066F036 /* Debug */,
-				F3E367ED282ADA200066F036 /* Release */,
+				F3E6D6A428479350004D1F56 /* Debug */,
+				F3E6D6A528479350004D1F56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3E367EE282ADA200066F036 /* Build configuration list for PBXNativeTarget "HomeWork" */ = {
+		F3E6D6A628479350004D1F56 /* Build configuration list for PBXNativeTarget "HomeWork 6 Enum control buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E367EF282ADA200066F036 /* Debug */,
-				F3E367F0282ADA200066F036 /* Release */,
+				F3E6D6A728479350004D1F56 /* Debug */,
+				F3E6D6A828479350004D1F56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3E367D2282ADA200066F036 /* Project object */;
+	rootObject = F3E6D68A2847934F004D1F56 /* Project object */;
 }

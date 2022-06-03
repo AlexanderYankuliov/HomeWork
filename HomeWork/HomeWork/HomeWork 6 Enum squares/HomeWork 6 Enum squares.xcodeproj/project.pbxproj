@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9172E283FC4230014D0B9 /* ViewController.swift */; };
-		F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DD282ADA200066F036 /* AppDelegate.swift */; };
-		F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DF282ADA200066F036 /* SceneDelegate.swift */; };
-		F3E367E5282ADA200066F036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E3282ADA200066F036 /* Main.storyboard */; };
-		F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E6282ADA200066F036 /* Assets.xcassets */; };
-		F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */; };
+		F3C4E779284A367D00784F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4E778284A367D00784F5E /* AppDelegate.swift */; };
+		F3C4E77B284A367D00784F5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4E77A284A367D00784F5E /* SceneDelegate.swift */; };
+		F3C4E77D284A367D00784F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4E77C284A367D00784F5E /* ViewController.swift */; };
+		F3C4E780284A367D00784F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C4E77E284A367D00784F5E /* Main.storyboard */; };
+		F3C4E782284A367E00784F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C4E781284A367E00784F5E /* Assets.xcassets */; };
+		F3C4E785284A367E00784F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C4E783284A367E00784F5E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3A9172E283FC4230014D0B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3E367DA282ADA200066F036 /* HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E367DD282ADA200066F036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3E367DF282ADA200066F036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3E367E4282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3E367E6282ADA200066F036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3E367E9282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3E367EB282ADA200066F036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C4E775284A367D00784F5E /* HomeWork 6 Enum squares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 6 Enum squares.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C4E778284A367D00784F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3C4E77A284A367D00784F5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3C4E77C284A367D00784F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3C4E77F284A367D00784F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C4E781284A367E00784F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3C4E784284A367E00784F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C4E786284A367E00784F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3E367D7282ADA200066F036 /* Frameworks */ = {
+		F3C4E772284A367D00784F5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3E367D1282ADA200066F036 = {
+		F3C4E76C284A367D00784F5E = {
 			isa = PBXGroup;
 			children = (
-				F3E367DC282ADA200066F036 /* HomeWork */,
-				F3E367DB282ADA200066F036 /* Products */,
+				F3C4E777284A367D00784F5E /* HomeWork 6 Enum squares */,
+				F3C4E776284A367D00784F5E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3E367DB282ADA200066F036 /* Products */ = {
+		F3C4E776284A367D00784F5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3E367DA282ADA200066F036 /* HomeWork.app */,
+				F3C4E775284A367D00784F5E /* HomeWork 6 Enum squares.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3E367DC282ADA200066F036 /* HomeWork */ = {
+		F3C4E777284A367D00784F5E /* HomeWork 6 Enum squares */ = {
 			isa = PBXGroup;
 			children = (
-				F3E367DD282ADA200066F036 /* AppDelegate.swift */,
-				F3E367DF282ADA200066F036 /* SceneDelegate.swift */,
-				F3E367E6282ADA200066F036 /* Assets.xcassets */,
-				F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */,
-				F3E367EB282ADA200066F036 /* Info.plist */,
-				F3E367E3282ADA200066F036 /* Main.storyboard */,
-				F3A9172E283FC4230014D0B9 /* ViewController.swift */,
+				F3C4E778284A367D00784F5E /* AppDelegate.swift */,
+				F3C4E77A284A367D00784F5E /* SceneDelegate.swift */,
+				F3C4E77C284A367D00784F5E /* ViewController.swift */,
+				F3C4E77E284A367D00784F5E /* Main.storyboard */,
+				F3C4E781284A367E00784F5E /* Assets.xcassets */,
+				F3C4E783284A367E00784F5E /* LaunchScreen.storyboard */,
+				F3C4E786284A367E00784F5E /* Info.plist */,
 			);
-			path = HomeWork;
+			path = "HomeWork 6 Enum squares";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3E367D9282ADA200066F036 /* HomeWork */ = {
+		F3C4E774284A367D00784F5E /* HomeWork 6 Enum squares */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3E367EE282ADA200066F036 /* Build configuration list for PBXNativeTarget "HomeWork" */;
+			buildConfigurationList = F3C4E789284A367E00784F5E /* Build configuration list for PBXNativeTarget "HomeWork 6 Enum squares" */;
 			buildPhases = (
-				F3E367D6282ADA200066F036 /* Sources */,
-				F3E367D7282ADA200066F036 /* Frameworks */,
-				F3E367D8282ADA200066F036 /* Resources */,
+				F3C4E771284A367D00784F5E /* Sources */,
+				F3C4E772284A367D00784F5E /* Frameworks */,
+				F3C4E773284A367D00784F5E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HomeWork;
-			productName = HomeWork;
-			productReference = F3E367DA282ADA200066F036 /* HomeWork.app */;
+			name = "HomeWork 6 Enum squares";
+			productName = "HomeWork 6 Enum squares";
+			productReference = F3C4E775284A367D00784F5E /* HomeWork 6 Enum squares.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3E367D2282ADA200066F036 /* Project object */ = {
+		F3C4E76D284A367D00784F5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					F3E367D9282ADA200066F036 = {
+					F3C4E774284A367D00784F5E = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F3E367D5282ADA200066F036 /* Build configuration list for PBXProject "HomeWork" */;
+			buildConfigurationList = F3C4E770284A367D00784F5E /* Build configuration list for PBXProject "HomeWork 6 Enum squares" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F3E367D1282ADA200066F036;
-			productRefGroup = F3E367DB282ADA200066F036 /* Products */;
+			mainGroup = F3C4E76C284A367D00784F5E;
+			productRefGroup = F3C4E776284A367D00784F5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3E367D9282ADA200066F036 /* HomeWork */,
+				F3C4E774284A367D00784F5E /* HomeWork 6 Enum squares */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3E367D8282ADA200066F036 /* Resources */ = {
+		F3C4E773284A367D00784F5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */,
-				F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */,
-				F3E367E5282ADA200066F036 /* Main.storyboard in Resources */,
+				F3C4E785284A367E00784F5E /* LaunchScreen.storyboard in Resources */,
+				F3C4E782284A367E00784F5E /* Assets.xcassets in Resources */,
+				F3C4E780284A367D00784F5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3E367D6282ADA200066F036 /* Sources */ = {
+		F3C4E771284A367D00784F5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */,
-				F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */,
-				F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */,
+				F3C4E77D284A367D00784F5E /* ViewController.swift in Sources */,
+				F3C4E779284A367D00784F5E /* AppDelegate.swift in Sources */,
+				F3C4E77B284A367D00784F5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3E367E3282ADA200066F036 /* Main.storyboard */ = {
+		F3C4E77E284A367D00784F5E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3E367E4282ADA200066F036 /* Base */,
+				F3C4E77F284A367D00784F5E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */ = {
+		F3C4E783284A367E00784F5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3E367E9282ADA200066F036 /* Base */,
+				F3C4E784284A367E00784F5E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3E367EC282ADA200066F036 /* Debug */ = {
+		F3C4E787284A367E00784F5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		F3E367ED282ADA200066F036 /* Release */ = {
+		F3C4E788284A367E00784F5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		F3E367EF282ADA200066F036 /* Debug */ = {
+		F3C4E78A284A367E00784F5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork/Info.plist;
+				INFOPLIST_FILE = "HomeWork 6 Enum squares/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork-6-Enum-squares";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		F3E367F0282ADA200066F036 /* Release */ = {
+		F3C4E78B284A367E00784F5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork/Info.plist;
+				INFOPLIST_FILE = "HomeWork 6 Enum squares/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork-6-Enum-squares";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3E367D5282ADA200066F036 /* Build configuration list for PBXProject "HomeWork" */ = {
+		F3C4E770284A367D00784F5E /* Build configuration list for PBXProject "HomeWork 6 Enum squares" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E367EC282ADA200066F036 /* Debug */,
-				F3E367ED282ADA200066F036 /* Release */,
+				F3C4E787284A367E00784F5E /* Debug */,
+				F3C4E788284A367E00784F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3E367EE282ADA200066F036 /* Build configuration list for PBXNativeTarget "HomeWork" */ = {
+		F3C4E789284A367E00784F5E /* Build configuration list for PBXNativeTarget "HomeWork 6 Enum squares" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3E367EF282ADA200066F036 /* Debug */,
-				F3E367F0282ADA200066F036 /* Release */,
+				F3C4E78A284A367E00784F5E /* Debug */,
+				F3C4E78B284A367E00784F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3E367D2282ADA200066F036 /* Project object */;
+	rootObject = F3C4E76D284A367D00784F5E /* Project object */;
 }

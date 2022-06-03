@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9172E283FC4230014D0B9 /* ViewController.swift */; };
+		F354336128377A6E0027C2C2 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354336028377A6E0027C2C2 /* Beer.swift */; };
+		F3543363283B8EFA0027C2C2 /* Pub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3543362283B8EFA0027C2C2 /* Pub.swift */; };
+		F3D80172283F8D8100232E82 /* HomeWork 3 in Resources */ = {isa = PBXBuildFile; fileRef = F3D80171283F8D8100232E82 /* HomeWork 3 */; };
+		F3D80174283F8D8C00232E82 /* HomeWork 2 in Resources */ = {isa = PBXBuildFile; fileRef = F3D80173283F8D8C00232E82 /* HomeWork 2 */; };
+		F3D80176283F8D9800232E82 /* HomeWork 1 in Resources */ = {isa = PBXBuildFile; fileRef = F3D80175283F8D9800232E82 /* HomeWork 1 */; };
 		F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DD282ADA200066F036 /* AppDelegate.swift */; };
 		F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367DF282ADA200066F036 /* SceneDelegate.swift */; };
+		F3E367E2282ADA200066F036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E367E1282ADA200066F036 /* ViewController.swift */; };
 		F3E367E5282ADA200066F036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E3282ADA200066F036 /* Main.storyboard */; };
 		F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E6282ADA200066F036 /* Assets.xcassets */; };
 		F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3A9172E283FC4230014D0B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F354336028377A6E0027C2C2 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		F3543362283B8EFA0027C2C2 /* Pub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pub.swift; sourceTree = "<group>"; };
+		F3D80171283F8D8100232E82 /* HomeWork 3 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 3"; path = "../../../HomeWorkDone/HomeWork 3"; sourceTree = "<group>"; };
+		F3D80173283F8D8C00232E82 /* HomeWork 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 2"; path = "../../../HomeWorkDone/HomeWork 2"; sourceTree = "<group>"; };
+		F3D80175283F8D9800232E82 /* HomeWork 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "HomeWork 1"; path = "../../../HomeWorkDone/HomeWork 1"; sourceTree = "<group>"; };
 		F3E367DA282ADA200066F036 /* HomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E367DD282ADA200066F036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3E367DF282ADA200066F036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3E367E1282ADA200066F036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3E367E4282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3E367E6282ADA200066F036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3E367E9282ADA200066F036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +50,9 @@
 		F3E367D1282ADA200066F036 = {
 			isa = PBXGroup;
 			children = (
+				F3D80175283F8D9800232E82 /* HomeWork 1 */,
+				F3D80173283F8D8C00232E82 /* HomeWork 2 */,
+				F3D80171283F8D8100232E82 /* HomeWork 3 */,
 				F3E367DC282ADA200066F036 /* HomeWork */,
 				F3E367DB282ADA200066F036 /* Products */,
 			);
@@ -58,11 +71,13 @@
 			children = (
 				F3E367DD282ADA200066F036 /* AppDelegate.swift */,
 				F3E367DF282ADA200066F036 /* SceneDelegate.swift */,
+				F354336028377A6E0027C2C2 /* Beer.swift */,
+				F3543362283B8EFA0027C2C2 /* Pub.swift */,
+				F3E367E1282ADA200066F036 /* ViewController.swift */,
+				F3E367E3282ADA200066F036 /* Main.storyboard */,
 				F3E367E6282ADA200066F036 /* Assets.xcassets */,
 				F3E367E8282ADA200066F036 /* LaunchScreen.storyboard */,
 				F3E367EB282ADA200066F036 /* Info.plist */,
-				F3E367E3282ADA200066F036 /* Main.storyboard */,
-				F3A9172E283FC4230014D0B9 /* ViewController.swift */,
 			);
 			path = HomeWork;
 			sourceTree = "<group>";
@@ -126,6 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3E367EA282ADA200066F036 /* LaunchScreen.storyboard in Resources */,
+				F3D80172283F8D8100232E82 /* HomeWork 3 in Resources */,
+				F3D80174283F8D8C00232E82 /* HomeWork 2 in Resources */,
+				F3D80176283F8D9800232E82 /* HomeWork 1 in Resources */,
 				F3E367E7282ADA200066F036 /* Assets.xcassets in Resources */,
 				F3E367E5282ADA200066F036 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3543363283B8EFA0027C2C2 /* Pub.swift in Sources */,
+				F3E367E2282ADA200066F036 /* ViewController.swift in Sources */,
+				F354336128377A6E0027C2C2 /* Beer.swift in Sources */,
 				F3E367DE282ADA200066F036 /* AppDelegate.swift in Sources */,
-				F3A9172F283FC4230014D0B9 /* ViewController.swift in Sources */,
 				F3E367E0282ADA200066F036 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork_5_Control_buttons" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X88-Vc-EFv">
+                                <rect key="frame" x="172" y="705" width="70" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="D00-nD-Xx3"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="UP"/>
+                                <connections>
+                                    <action selector="upButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OCz-Kn-U5N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lev-Hg-LLe">
+                                <rect key="frame" x="253" y="749" width="66" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="AE3-AT-xeW"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="RIGHT"/>
+                                <connections>
+                                    <action selector="rightButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CnC-C3-UKT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pO-Ew-yFH">
+                                <rect key="frame" x="95" y="749" width="57" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="d7c-Tl-9YZ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="LEFT"/>
+                                <connections>
+                                    <action selector="leftButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PVx-lO-ViU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lme-Mv-IPM">
+                                <rect key="frame" x="172" y="789" width="70" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="IMF-I8-mvz"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="DOWN"/>
+                                <connections>
+                                    <action selector="downButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQy-9J-Fvk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lme-Mv-IPM" secondAttribute="trailing" constant="172" id="5Qc-OP-Dg5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9pO-Ew-yFH" secondAttribute="bottom" constant="82" id="Cuu-O5-PKW"/>
+                            <constraint firstItem="lme-Mv-IPM" firstAttribute="top" secondItem="X88-Vc-EFv" secondAttribute="bottom" constant="53" id="Jkz-ki-FUy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X88-Vc-EFv" secondAttribute="trailing" constant="172" id="Kdv-Il-bzd"/>
+                            <constraint firstItem="lme-Mv-IPM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="172" id="Krg-Dl-p0g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lev-Hg-LLe" secondAttribute="trailing" constant="95" id="SAT-oY-fHn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lme-Mv-IPM" secondAttribute="bottom" constant="42" id="h1R-de-m4L"/>
+                            <constraint firstItem="X88-Vc-EFv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="172" id="oJb-if-QAU"/>
+                            <constraint firstItem="9pO-Ew-yFH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="vSM-lW-tlK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lev-Hg-LLe" secondAttribute="bottom" constant="82" id="zU8-Ng-hvs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="downButtonOutlet" destination="lme-Mv-IPM" id="t4d-Ve-Agt"/>
+                        <outlet property="leftButtonOutlet" destination="9pO-Ew-yFH" id="4rr-bM-1mV"/>
+                        <outlet property="rightButtonOutlet" destination="lev-Hg-LLe" id="OUA-ZF-1iT"/>
+                        <outlet property="upButtonOutlet" destination="X88-Vc-EFv" id="HFL-6z-RPK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-238" y="92"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
