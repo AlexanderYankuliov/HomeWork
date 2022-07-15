@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Barrier.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
