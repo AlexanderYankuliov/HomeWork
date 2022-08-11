@@ -4,6 +4,11 @@
 //
 //  Created by Alexander Yankuliov on 11.08.22.
 //
+//  Задание:
+//
+//  Написать свой браузер - адресная строка, кнопки вперед\назад, стоп.
+//
+//  iPhone 11
 
 import UIKit
 import WebKit
